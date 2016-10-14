@@ -11,6 +11,7 @@
 .header-image.header {
     width: 660px;
     margin: 0 auto;
+    padding: 0 32px;
 }
 
 .header-image p, .header-image strong {color: #fff; letter-spacing: 1px; text-align: center; font-family: sans-serif; margin: 0;}
