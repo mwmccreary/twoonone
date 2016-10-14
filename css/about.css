@@ -5,13 +5,13 @@
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
-    padding: 32px;
+    padding: 0 150px;
 }
 
 .header-image.header {
     width: 660px;
     margin: 0 auto;
-    padding: 0 160px;
+    padding: 0 32px;
 }
 
 nav ul, footer ul {
@@ -20,8 +20,8 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 16;
+    right: 32;
 }
 nav ul li, footer ul li {
     display: inline;
