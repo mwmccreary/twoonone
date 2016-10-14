@@ -49,12 +49,14 @@ a:hover {
     font-size: 24px;
     color: #202020;
     text-align: left;
+    font-family: sans-serif;
 }
 
 .mission-statement strong {
     font-size: 48px;
     color: #202020;
     text-align: center;
+    font-family: sans-serif;
 }
 
     
