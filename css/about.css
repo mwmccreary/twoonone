@@ -11,7 +11,7 @@
 .text-wrapper {
     width: 660px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 32px 0;
 }
 
 nav ul, footer ul {
