@@ -8,7 +8,7 @@
     padding: 0 150px;
 }
 
-.header-image.header {
+.text-wrapper {
     width: 660px;
     margin: 0 auto;
     padding: 0 32px;
@@ -39,3 +39,23 @@ a:hover {
 .header-image p, .header-image strong {color: #fff; letter-spacing: 1px; text-align: center; font-family: sans-serif; margin: 0;}
 .header-image p {font-size: 24px; font-weight: 400;}
 .header-image strong {font-size: 60px; font-weight: 800;}
+
+.mission-statement {
+    width: 100%;
+    background-color: #ccc;
+}
+
+.mission-statement p {
+    font-size: 24px;
+    color: #202020;
+    text-align: left;
+}
+
+.mission-statement strong {
+    font-size: 48px;
+    color: #202020;
+    text-align: center;
+}
+
+    
+    
