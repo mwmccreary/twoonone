@@ -19,6 +19,9 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 nav ul li, footer ul li {
     display: inline;
