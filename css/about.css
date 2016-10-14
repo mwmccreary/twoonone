@@ -42,19 +42,19 @@ a:hover {
 
 .mission-statement {
     width: 100%;
-    background-color: #ccc;
+    background-color: #eee;
 }
 
 .mission-statement p {
-    font-size: 24px;
-    color: #202020;
+    font-size: 16px;
+    color: #404040;
     text-align: left;
     font-family: sans-serif;
 }
 
 .mission-statement strong {
-    font-size: 48px;
-    color: #202020;
+    font-size: 32px;
+    color: #404040;
     text-align: center;
     font-family: sans-serif;
 }
