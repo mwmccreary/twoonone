@@ -5,13 +5,13 @@
     background-attachment: fixed;
     background-position: center top;
     background-size: cover;
-    padding: 180px 0;
+    padding: 32px;
 }
 
 .header-image.header {
     width: 660px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 0 160px;
 }
 
 nav ul, footer ul {
