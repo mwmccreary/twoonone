@@ -33,6 +33,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 .header-image p, .header-image strong {color: #fff; letter-spacing: 1px; text-align: center; font-family: sans-serif; margin: 0;}
