@@ -57,6 +57,7 @@ a:hover {
     color: #404040;
     text-align: left;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .mission-statement strong {
@@ -66,5 +67,21 @@ a:hover {
     font-family: sans-serif;
 }
 
-    
-    
+
+.mission-image {
+  width: 256px;
+  display: inline-block;
+}
+
+.mission-wrapper {
+    max-width: 970px;
+    width: calc(100% - 64px);
+    position: relative;
+    margin: 0 auto;
+}
+
+.mission-text-wrapper {
+  margin-left: 32px;
+  width: calc(100% - 320px);
+  display: inline-block;
+  }
