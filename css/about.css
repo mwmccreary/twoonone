@@ -87,3 +87,11 @@ a:hover {
   display: inline-block;
   vertical-align: top;
 }
+
+.big-letter {
+  font-size: 500%;
+  line-height: 80%;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
