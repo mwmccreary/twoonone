@@ -97,6 +97,20 @@ a:hover {
   float: left;
 }
 
+.clips-big, .clips-small {
+	position: relative;
+	height: 56.25%;
+	float: left;
+}
+
+.clips-big {
+	width: 66.667%;
+}
+
+.clips-small {
+	width: 33.333%;
+}
+	
 .videoWrapper {
     position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
