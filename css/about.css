@@ -127,10 +127,24 @@ a:hover {
 	height: 100%;
 }
 
-.onea, .oneb, .twoa, .twob, .threea, .threeb {position: absolute;}
-.onea {width: 66.667%; height: 33.333%; background: red; top: 0; left: 0;}
-.oneb {width: 33.333%; height: 33.333%; background: blue; top: 0; left: 66.667%;}
-.twoa {width: 33.333%; height: 33.333%; background: white; bottom: 33.333%; left: 0;}
-.twob {width: 33.333%; height: 33.333%; background: green; bottom:33.333%; left: 33.333%;}
-.threea {width: 66.667%; height: 33.333%; background: pink; bottom: 0; left: 0;}
-.threeb {width: 33.333%; height: 66.668%; background: yellow; top: 33.333%; right: 0;}
+.onea, .oneb, .twoa, .twob, .threea, .threeb {
+	position: absolute;
+}
+.onea {
+	width: 66.667%; height: 33.333%; background: red; top: 0; left: 0;
+}
+.oneb {
+	width: 33.333%; height: 33.333%; background: blue; top: 0; left: 66.667%;
+}
+.twoa {
+	width: 33.333%; height: 33.333%; background: white; bottom: 33.333%; left: 0;
+}
+.twob {
+	width: 33.333%; height: 33.333%; background: green; bottom:33.333%; left: 33.333%;
+}
+.threea {
+	width: 66.667%; height: 33.333%; background: pink; bottom: 0; left: 0;
+}
+.threeb {
+	width: 33.333%; height: 66.668%; background: yellow; top: 33.333%; right: 0;
+}
