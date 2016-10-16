@@ -114,8 +114,7 @@ a:hover {
 .videoWrapper {
     position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-    margin-bottom: 56.25%; 
+	height: 0; 
 }
 .videoWrapper iframe {
 	position: absolute;
