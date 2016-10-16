@@ -150,8 +150,5 @@ a:hover {
 	width: 33.333%; height: 75%; background: #fbd032; top: 25%; right: 0;
 }
 .threea {
-	width: 33.333%; height: 25%; background: pink; top: 75%; left: 0;
-}
-.threeb {
-	width: 33.333%; height: 25%; background: purple; top: 75%; left: 33.333%;
+	width: 66.667%; height: 25%; background: pink; top: 75%; left: 0;
 }
