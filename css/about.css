@@ -71,6 +71,7 @@ a:hover {
 .mission-image {
   width: 256px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .mission-wrapper {
@@ -84,4 +85,5 @@ a:hover {
   margin-left: 32px;
   width: calc(100% - 320px);
   display: inline-block;
-  }
+  vertical-align: top;
+}
