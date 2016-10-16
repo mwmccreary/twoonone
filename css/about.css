@@ -132,6 +132,7 @@ a:hover {
 
 .onea, .oneb, .twoa, .twob, .twoc {
 	position: absolute;
+	overflow: hidden;
 }
 .onea {
 	width: 66.667%; height: 50%; background: red; top: 0; left: 0;
