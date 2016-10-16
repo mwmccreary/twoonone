@@ -90,8 +90,9 @@ a:hover {
 
 .big-letter {
   font-size: 500%;
-  line-height: 80%;
+  line-height: 77%;
   margin-right: 5px;
   display: inline-block;
   vertical-align: top;
+  float: left;
 }
