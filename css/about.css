@@ -67,11 +67,12 @@ a:hover {
 }
 
 .mission-statement p {
-    font-size: 16px;
+    font-size: 21px;
     color: #404040;
     text-align: left;
     font-family: sans-serif;
-    margin: 0;
+    margin: 16px 0;
+	line-height: 1.5;
 }
 
 .mission-statement strong {
