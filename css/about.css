@@ -62,13 +62,13 @@ a:hover {
 
 .mission-statement {
     width: 100%;
-    background-color: #eee;
+    background-color: black;
     padding: 32px 0;
 }
 
 .mission-statement p {
     font-size: 16px;
-    color: #404040;
+    color: #fff;
     text-align: left;
     font-family: sans-serif;
     margin: 0;
@@ -76,11 +76,10 @@ a:hover {
 
 .mission-statement strong {
     font-size: 32px;
-    color: #404040;
+    color: #fbd032;
     text-align: center;
     font-family: sans-serif;
 }
-
 
 .mission-image {
   width: 256px;
@@ -109,6 +108,7 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   float: left;
+	color: #fbd032;
 }
 
 .clips {
