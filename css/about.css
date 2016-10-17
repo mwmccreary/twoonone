@@ -8,10 +8,13 @@ body {
     background-position: center top;
     background-size: cover;
     background-image: url("https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg") no-repeat;
-    background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1), 100%), url("https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg") no-repeat; /*Safari 5.1-6*/
-    background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1), 100%), url("https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg") no-repeat; /*Opera 11.1-12*/
-    background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1), 100%), url("https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg") no-repeat; /*Fx 3.6-15*/
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1), 100%), url("https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg") no-repeat; /*Standard*/
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 1))), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(“https://cloud.githubusercontent.com/assets/20343845/19401537/da6a518e-9229-11e6-909f-e995034e3725.jpg”) no-repeat;
+
 	
     padding: 150px 0;
     position: relative;
