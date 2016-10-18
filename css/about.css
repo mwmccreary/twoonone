@@ -91,7 +91,7 @@ a:hover {
 .mission-image-container {
 	border-radius: 50%;
 	overflow: hidden;
-	stroke: 1px solid #404040;
+	border: 1px solid #404040;
 }
 
 .mission-wrapper {
