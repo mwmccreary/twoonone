@@ -88,6 +88,12 @@ a:hover {
   vertical-align: top;
 }
 
+.mission-image-container {
+	border-radius: 50%;
+	overflow: hidden;
+	stroke: 1px solid #404040;
+}
+
 .mission-wrapper {
     max-width: 970px;
     width: calc(100% - 64px);
