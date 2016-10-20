@@ -120,11 +120,10 @@ a:hover {
 }
 
 .clips {
-	width: 50%; 
-	padding-bottom: 37.5%; 
+	width: 100%; 
+	padding-bottom: 75%; 
 	height: 0;
 	position: relative;
-	float: left;
 }
 
 .clips-big, .clips-small {
