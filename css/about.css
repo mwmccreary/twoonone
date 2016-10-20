@@ -145,6 +145,11 @@ a:hover {
 	width: calc(100% - 64px);
 	margin: auto;
 }
+
+.profile-wrapper {
+	position: relative;
+	width: 100%;
+}
 	
 
 .profile-image, .profile-blurb {
