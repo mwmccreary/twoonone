@@ -160,7 +160,6 @@ a:hover {
 }
 
 .profile-blurb {
-	overflow-y: auto;
 	font-size: 21px;
 	font-family: sans-serif;
 	padding: 75px 0;
