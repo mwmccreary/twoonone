@@ -173,7 +173,7 @@ a:hover {
 }
 	
 
-.mission button {
+.mission-statement button {
 	padding: 16px; 
 	margin: 16px auto;  
 	color: #202020; 
@@ -185,7 +185,7 @@ a:hover {
 	border: 1px solid #202020;
 }
 
-.mission button:hover {
+.mission-statement button:hover {
 	background: black; 
 	transition: 0.4s;
 	padding: 21px;
