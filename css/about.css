@@ -165,7 +165,7 @@ a:hover {
 	top: 0;
 	left: 0;
 	padding: 16px;
-	overflow: auto;
+	overflow-y: auto;
 	font-size: 21px;
 	font-family: sans-serif;
 }
