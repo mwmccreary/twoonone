@@ -145,6 +145,9 @@ a:hover {
 	overflow: hidden;
 	height: 0;
 	padding-bottom: 37.5%;
+	background-image: url('https://cloud.githubusercontent.com/assets/20343845/19575658/c1bcd306-96dd-11e6-92ee-94b2df339d5a.png');
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .profile-button, .clips-button {
@@ -156,6 +159,7 @@ a:hover {
 	font-size: 32px;
 	font-weight: 700; 
 	font-family: sans-serif;
+	vertical-align: bottom;
 }
 
 .about:hover {background: black; transition: 0.4s;}
