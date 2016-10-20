@@ -120,10 +120,11 @@ a:hover {
 }
 
 .clips {
-	width: 100%; 
+	width: 50%; 
 	padding-bottom: 75%; 
 	height: 0;
 	position: relative;
+	float: left;
 }
 
 .clips-big, .clips-small {
@@ -137,6 +138,13 @@ a:hover {
 
 .clips-small {
 	width: 33.333%;
+}
+
+.profile {
+	width: 50%;
+	overflow: hidden;
+	height: 0;
+	padding-bottom: 75%;
 }
 	
 .videoWrapper {
