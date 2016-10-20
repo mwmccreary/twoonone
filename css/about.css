@@ -140,9 +140,10 @@ a:hover {
 }
 
 .profile {
-	width: 100%;
-	padding-bottom: 37.5%;
 	position: relative;
+	padding: 75px 0;
+	width: calc(100% - 64px);
+	margin: auto;
 }
 	
 
@@ -162,7 +163,6 @@ a:hover {
 .profile-blurb {
 	font-size: 21px;
 	font-family: sans-serif;
-	padding: 75px 0;
 }
 
 .profile-blurb p {
