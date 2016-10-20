@@ -141,14 +141,35 @@ a:hover {
 }
 
 .profile {
-	width: 50%;
-	overflow: hidden;
-	height: 0;
+	width: 100%;
 	padding-bottom: 37.5%;
+	position: relative;
+}
+	
+
+.profile-image, .profile-blurb {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+}
+
+.profile-image {
 	background-image: url('https://cloud.githubusercontent.com/assets/20343845/19575658/c1bcd306-96dd-11e6-92ee-94b2df339d5a.png');
 	background-repeat: no-repeat;
 	background-position: center top;
+	top: 0;
+	right: 0;
 }
+
+.profile-blurb {
+	top: 0;
+	left: 0;
+	padding: 16px;
+	overflow: auto;
+	font-size: 21px;
+	font-family: sans-serif;
+}
+	
 
 .profile-button, .clips-button {
 	padding: 16px; 
