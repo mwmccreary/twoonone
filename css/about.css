@@ -148,7 +148,7 @@ a:hover {
 	
 
 .profile-image, .profile-blurb {
-	width: 50%
+	width: calc(50% - 16px);
 }
 
 .profile-image {
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .profile-blurb p {
-	margin: 16px 32px;
+	margin: 16px 0;
 }
 	
 
