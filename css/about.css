@@ -149,6 +149,7 @@ a:hover {
     vertical-align: top;
     display: inline-block;
     *display: inline;
+	text-align: center;
 }
 
 .stretch {
