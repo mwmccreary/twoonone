@@ -205,7 +205,7 @@ width: 100%;
 }
 
 .box-overlay-top, .box-overlay-bottom {
-	display: none;
+	visibility: hidden;
 	position: absolute;  
 	left: 0; 
 	transition: 0.4s;
@@ -228,13 +228,13 @@ width: 100%;
 .box-overlay:hover .box-overlay-top{
 	transition: 0.4s;
 	top: calc(50% - 80px);
-	display: block;
+	visibility: visible;
 }
 
 .box-overlay:hover .box-overlay-bottom{
 	transition: 0.4s;
 	top: calc(50% - 32px);
-	display: block;
+	visibility: visible;
 }
 
 
