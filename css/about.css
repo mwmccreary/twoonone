@@ -185,11 +185,12 @@ nav a:hover {
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
 	position: absolute;
-	width: 100%;
+	width: calc(100% - 16px);
 	height: 100%;
 	top: 0;
 	left: 0;
 	font-family: sans-serif;
+	padding: 8px;
 }
 
 .box-overlay:hover {
