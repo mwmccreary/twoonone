@@ -4,7 +4,7 @@ body {
 
 .container p {
 	font-size: 16px;
-    	color: #404040;
+    	color: #202020;
     	text-align: left;
     	font-family: sans-serif;
     	margin: 16px 0;
@@ -16,11 +16,11 @@ body {
 }
 
 .section-title {
-	color: #404040;
-	font-size: 32;
+	font-size: 32px;
 	text-align: center;
 	font-weight: 700;
 	display: inherit;
+	margin: 32px 0;
 }
 
 .header-image {
