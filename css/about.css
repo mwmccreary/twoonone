@@ -160,6 +160,10 @@ a:hover {
 	background: white;
 }
 
+.work-experience p {
+	text-align: center;
+}
+
 .work-experience-container {
 	max-width: 970px;
 }
