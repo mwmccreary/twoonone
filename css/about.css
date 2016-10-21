@@ -171,6 +171,10 @@ a:hover {
 	background: white;
 }
 
+.work-experience-container {
+	max-width: 970px;
+}
+
 .profile {
 	position: relative;
 	padding: 75px 0;
