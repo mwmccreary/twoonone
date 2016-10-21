@@ -381,7 +381,9 @@ width: 100%;
 }
 	
 .clipstwo-container > div, .work-experience-container > div {
-    width: calc(33% - 8px);
+    width: 100%;
+	display: block;
+	margin: 16px auto;
 }
 	
 }
