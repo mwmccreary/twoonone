@@ -261,23 +261,24 @@ width: 100%;
 button {
 	padding: 16px; 
 	margin: 16px auto;  
-	color: #202020; 
+	color: white;
+	background: rgba(255,255,255,0);
 	text-align: center;  
 	font-size: 21px;
 	font-weight: 700; 
 	font-family: sans-serif;
 	vertical-align: bottom;
-	border: 1px solid #202020;
+	border: 3px solid white;
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
 	display: inline-block;
 }
 
 button:hover {
-	background: #202020;
+	background: rgba(255,255,255,1);
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
-	color: white;
+	color: #202020;
 }
 	
 .videoWrapper {
