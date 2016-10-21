@@ -136,7 +136,7 @@ a:hover {
 	background: #eee;
 }
 
-.clipstwo-container {
+.clipstwo-container, .work-experience-container {
 	width: 100%;
 	margin: 0 auto;
   	text-align: justify;
