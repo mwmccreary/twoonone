@@ -271,6 +271,10 @@ width: 100%;
 	display: inherit;
 }
 
+.clipstwo button:active, .work-experience button:active, .mission-statement button:active {
+	border: none;
+}
+
 .clipstwo button {
 	background: rgba(255,255,255,0);
 	color: white;
