@@ -369,20 +369,40 @@ width: 100%;
     padding: 16px 0;
 }	
 
-.header-image {
-    padding: 150px 0;	
-}
-
 .profile {
 	position: relative;
 	padding: 40px 0;
 	width: calc(100% - 32px);
 	margin: auto;
 }
+	
+.box-overlay-top {
+	top: calc(50% - 96px);
+	height:48px; 
+	font-size:16px; 
+}
+
+.box-overlay-bottom {
+	height:32px; 
+	font-size:16px; 
+	top: calc(50% - 32px); 
+	transition: 0.4s;
+}
+
+
+.box-overlay:hover .box-overlay-top{
+	transition: 0.4s;
+	top: calc(50% - 32px);
+}
+
+.box-overlay:hover .box-overlay-bottom{
+	transition: 0.4s;
+	top: calc(50% + 16px);
+}
 		
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 660px) {
 .clipstwo-container > div {
     	width: 500px;
 	display: block;
