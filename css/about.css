@@ -7,6 +7,7 @@ body {
 	font-size: 32;
 	text-align: center;
 	font-weight: 700;
+	display: inherit;
 }
 
 .header-image {
@@ -199,8 +200,8 @@ a:hover {
 	background-position: center bottom;
 	background-size: cover;
 	position: absolute;
-	top: 91px;
-	bottom: 91px;
+	top: 0;
+	bottom: 0;
 	right: 0;
 }
 
