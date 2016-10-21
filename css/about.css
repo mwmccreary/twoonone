@@ -378,7 +378,7 @@ width: 100%;
 		
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 750px) {
 .clipstwo-container > div {
     	width: 500px;
 	display: block;
