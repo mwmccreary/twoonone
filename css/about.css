@@ -268,7 +268,7 @@ width: 100%;
 	vertical-align: bottom;
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
-	display: inline-block;
+	display: inherit;
 }
 
 .clipstwo button {
