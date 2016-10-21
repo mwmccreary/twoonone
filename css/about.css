@@ -157,6 +157,22 @@ a:hover {
     line-height: 0
 }
 
+.box-overlay {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	opacity: 0;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+
+}
+
+.box-overlay:hover {
+	opacity: 1;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
 .work-experience {
 	background: white;
 }
@@ -201,7 +217,7 @@ a:hover {
 	position: relative;
 }	
 
-.work-experience button {
+button {
 	padding: 16px; 
 	margin: 16px auto;  
 	color: #202020; 
@@ -216,7 +232,7 @@ a:hover {
 	display: inline-block;
 }
 
-.work-experience button:hover {
+button:hover {
 	background: #202020;
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
