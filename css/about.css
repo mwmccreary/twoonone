@@ -107,6 +107,10 @@ a:hover {
     margin: 0 auto;
 }
 
+.mission-wrapper p {
+	text-align: center;
+}
+
 .mission-text-wrapper {
   margin-left: 32px;
   width: calc(100% - 320px);
