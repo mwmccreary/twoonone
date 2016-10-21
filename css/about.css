@@ -99,6 +99,7 @@ nav a:hover {
     width: 100%;
     background-color: #eee;
     padding: 75px 0;
+	text-align: center;
 }
 
 .mission-image {
@@ -149,6 +150,7 @@ nav a:hover {
 
 .clipstwo {
 	background: #eee;
+	text-align: center
 }
 
 .clipstwo-container, .work-experience-container {
@@ -233,6 +235,7 @@ width: 100%;
 
 .work-experience {
 	background: white;
+	text-align: center;
 }
 
 .work-experience p {
@@ -285,7 +288,7 @@ width: 100%;
 	vertical-align: bottom;
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
-	display: inherit;
+	display: inline-block;
 }
 
 .clipstwo button {
