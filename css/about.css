@@ -127,30 +127,13 @@ a:hover {
   font-weight: 800;
 }
 
-.clips {
-	width: 100%; 
-	padding-bottom: 75%; 
-	height: 0;
-	position: relative;
-}
-
-.clips-big, .clips-small {
-	position: relative;
-	float: left;
-}
-
-.clips-big {
-	width: 66.667%;
-}
-
-.clips-small {
-	width: 33.333%;
+.clipstwo , .work-experience {
+	padding: 75px 32px;
+	width: calc(100% - 64px);
 }
 
 .clipstwo {
 	background: #eee;
-	padding: 75px 32px;
-	width: calc(100% - 64px);
 }
 
 .clipstwo-container {
@@ -161,14 +144,15 @@ a:hover {
     	text-justify: distribute-all-lines;
 }
 
-.clipstwo-container > div {
-    width: calc(33% - 32px);
+.clipstwo-container, .work-experience-container > div {
+    width: calc(33% - 16px);
     height: 0;
 	padding-bottom: calc(33% - 32px);
     vertical-align: top;
     display: inline-block;
     *display: inline;
 }
+
 .stretch {
     width: 100%;
     display: inline-block;
@@ -181,6 +165,11 @@ a:hover {
 }
 .box2, .box4 {
     background: #0ff
+}
+
+.work-experience {
+	max-width: 970px;
+	background: white;
 }
 
 .profile {
@@ -222,7 +211,7 @@ a:hover {
 }
 	
 
-.mission-statement button {
+.work-experience button {
 	padding: 16px; 
 	margin: 16px auto;  
 	color: #202020; 
@@ -232,12 +221,16 @@ a:hover {
 	font-family: sans-serif;
 	vertical-align: bottom;
 	border: 1px solid #202020;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	display: inline-block;
 }
 
-.mission-statement button:hover {
-	background: black; 
-	transition: 0.4s;
-	padding: 21px;
+.work-experience button:hover {
+	background: #202020;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	color: white;
 }
 	
 .videoWrapper {
@@ -251,27 +244,4 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-
-.onea, .oneb, .twoa, .twob, .twoc, .threea {
-	position: absolute;
-	overflow: hidden;
-}
-.onea {
-	width: 66.667%; height: 50%; background: red; top: 0; left: 0;
-}
-.oneb {
-	width: 33.333%; height: 25%; background: blue; top: 0; left: 66.667%;
-}
-.twoa {
-	width: 33.333%; height: 25%; background: black; top: 50%; left: 0;
-}
-.twob {
-	width: 33.333%; height: 25%; background: green; top: 50%; left: 33.333%;
-}
-.twoc {
-	width: 33.333%; height: 75%; background: #fbd032; top: 25%; right: 0;
-}
-.threea {
-	width: 66.667%; height: 25%; background: pink; top: 75%; left: 0;
 }
