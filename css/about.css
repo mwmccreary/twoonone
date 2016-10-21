@@ -150,6 +150,7 @@ a:hover {
 .clipstwo {
 	background: #eee;
 	padding: 75px 32px;
+	width: calc(100% - 64px);
 }
 
 .clipstwo-container {
