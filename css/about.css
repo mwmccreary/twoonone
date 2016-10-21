@@ -70,13 +70,17 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+nav a {
     text-decoration: none;
     color: #ccc;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
 }
-a:hover {
+nav a:hover {
     text-decoration: underline;
     color: #fff;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
 }
 
 .header-image p, .header-image strong {color: #fff; letter-spacing: 1px; text-align: center; font-family: sans-serif; margin: 0;}
