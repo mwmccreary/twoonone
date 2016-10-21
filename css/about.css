@@ -2,6 +2,16 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
 .container p {
 	font-size: 16px;
     	color: #202020;
@@ -71,13 +81,11 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 nav a {
-    text-decoration: none;
     color: #ccc;
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
 }
 nav a:hover {
-    text-decoration: underline;
     color: #fff;
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
