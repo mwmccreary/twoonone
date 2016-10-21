@@ -155,9 +155,9 @@ a:hover {
 }
 
 .clipstwo > div {
-    width: calc(100% - 32px);
+    width: calc(33% - 32px);
     height: 0;
-	padding-bottom: calc(100% - 32px);
+	padding-bottom: calc(33% - 32px);
     vertical-align: top;
     display: inline-block;
     *display: inline;
