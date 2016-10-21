@@ -380,10 +380,27 @@ width: 100%;
 	margin: auto;
 }
 	
-.clipstwo-container > div, .work-experience-container > div {
-    width: 100%;
+.clipstwo-container > div {
+    	width: 600px;
 	display: block;
 	margin: 16px auto;
+}
+	
+.work-experience-container > div {
+	width: 400px;
+	display: block;
+	margin: 16px auto;
+}
+	
+}
+
+@media screen and (max-width: 632px) {
+	.clipstwo-container > div {
+    	width: 100%;
+}
+	
+.work-experience-container > div {
+	width: 80%;
 }
 	
 }
