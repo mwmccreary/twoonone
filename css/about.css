@@ -147,9 +147,8 @@ a:hover {
 	width: 33.333%;
 }
 
-.clips-two {
+.clipstwo {
 	width: calc(100% - 64px);
-    
   	text-align: justify;
     	-ms-text-justify: distribute-all-lines;
     	text-justify: distribute-all-lines;
