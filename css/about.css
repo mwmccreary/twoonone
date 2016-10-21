@@ -258,27 +258,44 @@ width: 100%;
 	position: relative;
 }	
 
-button {
+.clipstwo button, .work-experience button {
 	padding: 16px; 
 	margin: 16px auto;  
-	color: white;
-	background: rgba(255,255,255,0);
 	text-align: center;  
 	font-size: 21px;
 	font-weight: 700; 
 	font-family: sans-serif;
 	vertical-align: bottom;
-	border: 3px solid white;
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
 	display: inline-block;
 }
 
-button:hover {
-	background: rgba(255,255,255,1);
+.clipstwo button {
+	background: rgba(255,255,255,0);
+	color: white;
+	border: 3px solid white;
+}
+
+.work-experience button {
+	background: rgba(32,32,32,0);
+	color: #202020
+	border: 3px solid #202020;
+}
+
+.clipstwo button:hover, .work-experience button:hover {
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
-	color: #202020;
+}
+
+.clipstwo button:hover {
+	background: rgba(255,255,255,1);
+	color: black;
+}
+
+.work-experience button:hover {
+	background: rgba(32,32,32,1);
+	color: white;
 }
 	
 .videoWrapper {
