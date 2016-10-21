@@ -183,7 +183,7 @@ a:hover {
 width: 100%;
 }
 
-.box-overlay-top. .box-overlay-bottom {
+.box-overlay-top, .box-overlay-bottom {
 	position: absolute; 
 	top: calc(50% - 48px); 
 	left: 0; 
