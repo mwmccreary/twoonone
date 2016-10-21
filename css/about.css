@@ -127,7 +127,7 @@ nav a:hover {
 
 .mission-text-wrapper {
   margin-left: 32px;
-  width: calc(100% - 320px);
+  width: calc(100% - 32px);
   display: inline-block;
   vertical-align: top;
 }
@@ -379,22 +379,25 @@ width: 100%;
 	width: calc(100% - 32px);
 	margin: auto;
 }
-	
+		
+}
+
+@media screen and (max-width: 860px) {
 .clipstwo-container > div {
-    	width: 600px;
+    	width: 500px;
 	display: block;
 	margin: 16px auto;
 }
 	
 .work-experience-container > div {
-	width: 400px;
+	width: 250px;
 	display: block;
 	margin: 16px auto;
 }
 	
-}
+}	
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 432px) {
 	.clipstwo-container > div {
     	width: 100%;
 }
