@@ -102,18 +102,6 @@ nav a:hover {
 	text-align: center;
 }
 
-.mission-image {
-  width: 256px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.mission-image-container {
-	border-radius: 50%;
-	overflow: hidden;
-	border: 1px solid #404040;
-}
-
 .mission-wrapper {
     max-width: 970px;
     width: calc(100% - 64px);
@@ -389,27 +377,22 @@ width: 100%;
 	
 	
 .clipstwo-container > div {
-    	width: 500px;
+    	width: 100%;
+	max-width: 500px;
 	display: block;
 	margin: 32px auto;
 }
 	
 .work-experience-container > div {
-	width: 250px;
+	width: 80%;
+	max-width: 250px;
 	display: block;
 	margin: 16px auto;
 }
 	
 }	
 
-@media screen and (max-width: 432px) {
-	.clipstwo-container > div {
-    	width: 100%;
-}
-	
-.work-experience-container > div {
-	width: 80%;
-}
+@media screen and (max-width : 432px) {
 	
 nav ul {
 	display: none;
