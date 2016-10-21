@@ -191,6 +191,7 @@ nav a:hover {
 	left: 0;
 	font-family: sans-serif;
 	padding: 8px;
+	overflow: hidden;
 }
 
 .box-overlay:hover {
