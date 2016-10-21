@@ -174,9 +174,44 @@ a:hover {
 
 .box-overlay:hover {
 	opacity: 1;
-	transition: 0.2s;
+	transition: 0.4s;
 	-webkit-transition: 0.2s;
 }
+
+.box-overlay div {
+width: 100%;
+}
+
+.box-overlay-top. .box-overlay-bottom {
+	position: absolute; 
+	top: calc(50% - 48px); 
+	left: 0; 
+	transition: 0.4s;
+}
+
+.box-overlay-top {
+	height:48px; 
+	font-size:16px; 
+}
+
+.box-overlay-bottom {
+	height:32px; 
+	font-size:16px; 
+	top: calc(50% + 48px); 
+	transition: 0.4s;
+}
+
+
+.box-overlay:hover .box-overlay-top{
+	transition: 0.4s;
+	top: calc(50% - 32px);
+}
+
+.box-overlay:hover .box-overlay-bottom{
+	transition: 0.4s;
+	top: calc(50% + 16px);
+}
+
 
 .work-experience {
 	background: white;
