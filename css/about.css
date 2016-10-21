@@ -148,13 +148,12 @@ a:hover {
 }
 
 .clipstwo {
-	width: 100%;
 	background: #eee;
 	padding: 75px 32px;
 }
 
 .clipstwo-container {
-	width: calc(100%);
+	width: 100%;
 	margin: 0 auto;
   	text-align: justify;
     	-ms-text-justify: distribute-all-lines;
