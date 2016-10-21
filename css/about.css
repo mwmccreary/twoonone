@@ -146,6 +146,36 @@ a:hover {
 	width: 33.333%;
 }
 
+.clips-two {
+	width: calc(100% - 64px);
+    
+  	text-align: justify;
+    	-ms-text-justify: distribute-all-lines;
+    	text-justify: distribute-all-lines;
+}
+
+.box1, .box2, .box3, {
+    width: calc(100% - 32px);
+    height: 0;
+	padding-bottom: calc(100% - 32px);
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+.box1, .box3 {
+    background: #ccc
+}
+.box2, .box4 {
+    background: #0ff
+}
+
 .profile {
 	position: relative;
 	padding: 75px 0;
