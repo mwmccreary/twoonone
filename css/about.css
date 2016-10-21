@@ -345,7 +345,7 @@ width: 100%;
 
 @media screen and (max-width: 970px) {
 	
-.profile-image {
+.profile-image, .profile-blurb {
 	background-image: url('https://cloud.githubusercontent.com/assets/20343845/19579136/074b7f94-96ed-11e6-8bdf-d2a418a9ff3b.png');
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -356,10 +356,6 @@ width: 100%;
 	height: 0;
 	padding-bottom: 56.25%;
 	margin: 0 auto;
-}
-
-.profile-blurb {
-	width: 100%;
 }
 	
 .header-image strong {
