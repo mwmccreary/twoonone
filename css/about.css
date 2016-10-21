@@ -3,7 +3,7 @@ body {
 }
 
 .container p {
-	font-size: 21px;
+	font-size: 16px;
     	color: #404040;
     	text-align: left;
     	font-family: sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 
 .container strong {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .section-title {
@@ -124,7 +124,7 @@ a:hover {
   font-weight: 800;
 }
 
-.clipstwo , .work-experience {
+.clipstwo, .work-experience {
 	padding: 75px 32px;
 	width: calc(100% - 64px);
 }
