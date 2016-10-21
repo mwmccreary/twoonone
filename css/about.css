@@ -2,6 +2,19 @@ body {
     margin: 0px;
 }
 
+.container p {
+	font-size: 21px;
+    	color: #404040;
+    	text-align: left;
+    	font-family: sans-serif;
+    	margin: 16px 0;
+	line-height: 1.5;
+}
+
+.container strong {
+    font-size: 32px;
+}
+
 .section-title {
 	color: #404040;
 	font-size: 32;
@@ -72,22 +85,6 @@ a:hover {
     width: 100%;
     background-color: #eee;
     padding: 75px 0;
-}
-
-.mission-statement p {
-    font-size: 21px;
-    color: #404040;
-    text-align: left;
-    font-family: sans-serif;
-    margin: 16px 0;
-	line-height: 1.5;
-}
-
-.mission-statement strong {
-    font-size: 32px;
-    color: #fbd032;
-    text-align: center;
-    font-family: sans-serif;
 }
 
 .mission-image {
@@ -196,15 +193,8 @@ a:hover {
 }
 
 .profile-blurb {
-	font-size: 21px;
-	font-family: sans-serif;
 	position: relative;
-}
-
-.profile-blurb p {
-	margin: 16px 0;
-}
-	
+}	
 
 .work-experience button {
 	padding: 16px; 
