@@ -149,6 +149,7 @@ a:hover {
 
 .clipstwo {
 	width: calc(100% - 64px);
+	margin: 0 auto;
   	text-align: justify;
     	-ms-text-justify: distribute-all-lines;
     	text-justify: distribute-all-lines;
