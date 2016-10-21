@@ -258,7 +258,7 @@ width: 100%;
 	position: relative;
 }	
 
-.clipstwo button, .work-experience button {
+.clipstwo button, .work-experience button, .mission-statement button {
 	padding: 16px; 
 	margin: 16px auto;  
 	text-align: center;  
@@ -277,13 +277,13 @@ width: 100%;
 	border: 3px solid white;
 }
 
-.work-experience button {
+.work-experience button, .mission-statement button {
 	background: rgba(32,32,32,0);
 	color: #202020;
 	border: 3px solid #202020;
 }
 
-.clipstwo button:hover, .work-experience button:hover {
+.clipstwo button:hover, .work-experience button:hover, .mission-statement button {
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
 }
@@ -291,6 +291,11 @@ width: 100%;
 .clipstwo button:hover {
 	background: rgba(255,255,255,1);
 	color: black;
+}
+
+.mission-statement button:hover {
+	background: rgba(32,32,32,1);
+	color: #eee;
 }
 
 .work-experience button:hover {
