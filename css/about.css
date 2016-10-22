@@ -370,10 +370,6 @@ width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-
-.header-image strong {
-	font-size: 32px; font-weight: 800;
-}
 	
 .header-image {
     	background-image: url("https://cloud.githubusercontent.com/assets/20343845/19617340/e8aeef16-97fb-11e6-8666-943b7d169792.jpg");
