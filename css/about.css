@@ -372,7 +372,8 @@ width: 100%;
 @media screen and (max-width: 750px) {
 	
 .header-image {
-    	background-image: url("https://cloud.githubusercontent.com/assets/20343845/19617340/e8aeef16-97fb-11e6-8666-943b7d169792.jpg");
+    	background-image: url("https://cloud.githubusercontent.com/assets/20343845/19617451/a104a892-97fe-11e6-975c-a9815f4914dd.jpg");
+	background-size: 100%;
 }
 	
 	
