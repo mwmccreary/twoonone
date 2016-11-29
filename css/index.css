@@ -257,9 +257,9 @@ width: 100%;
 }
 
 .profile-image {
-	background-image: url('https://cloud.githubusercontent.com/assets/20343845/19579136/074b7f94-96ed-11e6-8bdf-d2a418a9ff3b.png');
+	background-image: url("/mwmccreary/mwmccreary.github.io/blob/master/assets/My%20Profile3.jpg?raw=true");
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center top;
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -372,7 +372,7 @@ width: 100%;
 @media screen and (max-width: 750px) {
 	
 .header-image {
-    	background-image: url("https://cloud.githubusercontent.com/assets/20343845/19617451/a104a892-97fe-11e6-975c-a9815f4914dd.jpg");
+    	background-image: url("/mwmccreary/mwmccreary.github.io/blob/master/assets/New%20York.jpg?raw=true");
 	background-size: 100%;
 }
 	
