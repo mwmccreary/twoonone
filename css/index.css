@@ -41,7 +41,7 @@ a:hover {
     background-position: center top;
     background-size: cover;
 	background-repeat: no-repeat;
-    background-image: url("mwmccreary.github.io/assets/New York.jpg");
+    background-image: url("mwmccreary.github.io/assets/New%20York.jpg");
     padding: 150px 0;
     position: relative;
 }
@@ -372,7 +372,7 @@ width: 100%;
 @media screen and (max-width: 750px) {
 	
 .header-image {
-    	background-image: url("mwmccreary.github.io/assets/New York.jpg");
+    	background-image: url("mwmccreary.github.io/assets/New%20York.jpg");
 	background-size: 100%;
 }
 	
